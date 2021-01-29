@@ -11,6 +11,17 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="Gallery/assets/css/main.css" />
+
+
+	<!-- jQuery -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" type="text/javascript"></script>
+
+	<!-- nanogallery2 -->
+	<link href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css" rel="stylesheet"
+		type="text/css">
+	<script type="text/javascript"
+		src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
+
 </head>
 
 <body>
@@ -22,107 +33,45 @@
 		<header id="header">
 			<span class="avatar"><img src="Gallery/images/avatar.png" alt="logo-novus technica" /></span>
 			<h1>Nalanda College Young Inventors Society's Photo Gallery</h1>
-			<!--	<ul class="icons">
-							<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon style2 fa-500px"><span class="label">500px</span></a></li>
-							<li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
-						</ul>-->
+
 		</header>
 
 		<!-- Main -->
 		<section id="main">
+			<div data-nanogallery2='{
 
-			<!-- Thumbnails -->
-			<section class="thumbnails">
-				<div>
-					<a href="Gallery/images/fulls/1.jpg">
-						<img src="Gallery/images/thumbs/1.jpg" alt="" />
-						
-					</a>
+		  "thumbnailHeight":  200,
+		  "thumbnailWidth":   300,
+		  "thumbnailGutterWidth":20,
+		  "thumbnailGutterHeight":20,
+		  "thumbnailBorderVertical":0,
+		  "thumbnailBorderHorizontal":0,
+		  
 
-					<a href="Gallery/images/fulls/2.jpg">
-						<img src="Gallery/images/thumbs/2.jpg" alt="" />
-						
-					</a>
-				</div>
 
-				<div>
-					<a href="Gallery/images/fulls/3.jpg">
-						<img src="Gallery/images/thumbs/3.jpg" alt="" />
-						
-					</a>
+		
 
-					<a href="Gallery/images/fulls/4.jpg">
-						<img src="Gallery/images/thumbs/4.jpg" alt="" />
-						
-					</a>
+		  "itemsBaseURL":     "https://harindulk.github.io/test-novus/Gallery/images/fulls/"
+		}'>
 
-					
-				</div>
 
-				<div>
-					<a href="Gallery/images/fulls/5.jpg">
-						<img src="Gallery/images/thumbs/5.jpg" alt="" />
-					</a>
-					<a href="Gallery/images/fulls/6.jpg">
-						<img src="Gallery/images/thumbs/6.jpg" alt="" />
-					</a>
-				
-				</div>
 
-				<div>
-					<a href="Gallery/images/fulls/7.jpg">
-						<img src="Gallery/images/thumbs/7.jpg" alt="" />
-					</a>
-
-					<a href="Gallery/images/fulls/8.jpg">
-						<img src="Gallery/images/thumbs/8.jpg" alt="" />
-					</a>
-				</div>
-
+				<a href="1.jpg" data-ngThumb="1.jpg"> </a>
+				<a href="2.jpg" data-ngThumb="2.jpg"> </a>
+				<a href="3.jpg" data-ngThumb="3.jpg"> </a>
+				<a href="4.jpg" data-ngThumb="4.jpg"> </a>
 			
-			</section>
+				<a href="5.jpg" data-ngThumb="5.jpg"> </a>
+				<a href="6.jpg" data-ngThumb="6.jpg"> </a>
+				<a href="7.jpg" data-ngThumb="7.jpg"> </a>
+				<a href="8.jpg" data-ngThumb="8.jpg"> </a>
 
-		</section>
+				<a href="9.jpg" data-ngThumb="9.jpg"> </a>
+				<a href="10.jpg" data-ngThumb="10.jpg"> </a>
+				<a href="11.jpeg" data-ngThumb="11.jpeg"> </a>
+				<a href="12.jpeg" data-ngThumb="12.jpeg"> </a>
 
-		<section id="main">
-
-			<!-- Thumbnails -->
-			<section class="thumbnails">
-				<div>
-					<a href="Gallery/images/fulls/9.jpg">
-						<img src="Gallery/images/thumbs/9.jpg" alt="" />
-					</a>
-
-					
-				</div>
-
-				<div>
-					<a href="Gallery/images/fulls/10.jpg">
-						<img src="Gallery/images/thumbs/10.jpg" alt="" />
-					</a>
-
-					
-					
-				</div>
-
-				<div>
-					<a href="Gallery/images/fulls/11.jpeg">
-						<img src="Gallery/images/thumbs/11.jpeg" alt="" />
-					</a>
-					
-				</div>
-
-				<div>
-					<a href="Gallery/images/fulls/12.jpeg">
-						<img src="Gallery/images/thumbs/12.jpeg" alt="" />
-					</a>
-
-				</div>
-	
-			</section>
+			</div>
 
 		</section>
 
@@ -134,9 +83,7 @@
 	</div>
 
 	<!-- Scripts -->
-	<script src="Gallery/assets/js/jquery.min.js"></script>
-	<script src="Gallery/assets/js/jquery.poptrox.min.js"></script>
-	<script src="Gallery/assets/js/skel.min.js"></script>
+
 	<script src="Gallery/assets/js/main.js"></script>
 
 </body>
